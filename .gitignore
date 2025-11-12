@@ -1,0 +1,19 @@
+# macOS system files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.env.local
