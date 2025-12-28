@@ -28,41 +28,6 @@ Kierunek rozwoju:
 - dodanie API umożliwiającego automatyzację wpisów przez skrypty (FastAPI)
 - integracja z Dockerem (dla szybkiego uruchamiania środowiska testowego)
 
-## Struktura projektu
-accessLAB/
- ├── front/              # Warstwa prezentacji (Flask + Jinja)
- │    ├── templates/
- │    ├── static/
- │    └── views/
- │
- ├── app/                # Warstwa aplikacji (logika biznesowa)
- │    ├── services/
- │    ├── utils/
- │    └── core/
- │
- ├── api/                # Warstwa API (FastAPI – endpointy)
- │    ├── routers/
- │    ├── schemas/
- │    └── main.py
- │
- ├── db/                 # Warstwa danych (baza, modele)
- │    ├── models/
- │    ├── migrations/
- │    └── database.py
- │
- ├── deploy/             # Warstwa środowiska i wdrożenia
- │    ├── docker-compose.yml
- │    ├── Dockerfile
- │    ├── .env
- │    └── config/
- │
- ├── tests/              # Testy jednostkowe i integracyjne
- │
- ├── README.md
- ├── LICENSE
- └── .gitignore
-
-
 
 ## Uruchomienie (Docker)
 ```bash
