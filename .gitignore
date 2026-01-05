@@ -1,19 +1,33 @@
-# macOS system files
+# Operating systems
 .DS_Store
+Thumbs.db
 
-# Python
+# Python / Django
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.log
+.env
 .venv/
 venv/
-.env
-*.log
 
-# IDE
+# Django runtime files
+*.sqlite3
+media/
+
+# Node / Vite / Vue
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend tooling
+.vite/
 .vscode/
+
+# IDEs
 .idea/
 
 # Docker
-*.env.local
+.env.*
+docker-data/
